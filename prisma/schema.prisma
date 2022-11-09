@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -10,16 +7,59 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
-  posts Bet[]
+model Poll {
+  id        String   @id @default(cuid())
+  title     String
+  code      String
+  createdAt DateTime @default(now())
+  ownerId   String?
+
+  participants Participant[]
+  owner        User?         @relation(fields: [ownerId], references: [id])
 }
 
-model Bet {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
-  posts Post[]
+model User {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  avatarUrl String?
+  createdAt DateTime @default(now())
+
+  participatingAt Participant[]
+  ownPolls        Poll[]
+}
+
+model Participant {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  userId    String
+  pollId    String
+
+  guesses Guess[]
+  user    User    @relation(fields: [userId], references: [id])
+  poll    Poll    @relation(fields: [pollId], references: [id])
+
+  @@unique([userId, pollId])
+}
+
+model Game {
+  id                   String   @id @default(cuid())
+  date                 DateTime
+  firstTeamContryCode  String
+  SecondTeamContryCode String
+  createdAt            DateTime @default(now())
+
+  guesses Guess[]
+}
+
+model Guess {
+  id              String   @id @default(cuid())
+  firstTeamGoals  Int
+  secondTeamGoals Int
+  createdAt       DateTime @default(now())
+  gameId          String
+  participantId   String
+
+  participant Participant @relation(fields: [participantId], references: [id])
+  game        Game        @relation(fields: [gameId], references: [id])
 }
