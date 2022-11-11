@@ -4,7 +4,14 @@ import { prisma } from '../../utils/database'
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
 
     const { model }: any = req.query
-    const [entity, operation]: string[] = model
+    let [entity, operation]: string[] = model
+
+    entity = entity.charAt(0).toUpperCase() + entity.slice(1);
+
+    const handleError = (error: any) => {
+        console.log(error, entity, operation)
+        // if (error) res.status(error.response.status).send(error.response.data);
+    }
 
     switch (operation) {
         case 'lst':
@@ -12,8 +19,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                 const response = await (prisma as any)[entity].findMany()
                 res.status(200).json(response)
 
-            } catch (error: any) {
-                if (error) res.status(error.response.status).send(error.response.data);
+            } catch (error) {
+                handleError(error)
             }
             break;
         case 'new':
@@ -22,9 +29,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                     data: req.body
                 })
                 res.status(201).json(response)
-
-            } catch (error: any) {
-                if (error) res.status(error.response.status).send(error.response.data);
+            } catch (error) {
+                handleError(error)
             }
             break;
         case 'udt':
@@ -37,8 +43,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                 })
                 res.status(200).json(response)
 
-            } catch (error: any) {
-                if (error) res.status(error.response.status).send(error.response.data);
+            } catch (error) {
+                handleError(error)
             }
             break;
         case 'del':
@@ -50,8 +56,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                 })
                 res.status(200).json(response)
 
-            } catch (error: any) {
-                if (error) res.status(error.response.status).send(error.response.data);
+            } catch (error) {
+                handleError(error)
             }
             break;
 
@@ -64,10 +70,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                 })
                 res.status(200).json(response)
 
-            } catch (error: any) {
-                if (error) res.status(error.response.status).send(error.response.data);
+            } catch (error) {
+                handleError(error)
             }
-
             break;
     }
 }

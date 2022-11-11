@@ -7,17 +7,18 @@ import { FaEnvelope, FaLock, FaUser } from 'react-icons/fa';
 
 const forms = [
   {
-    title: 'Login', name: 'login', fields: [
+    title: 'Login', name: 'login', elements: [
       { label: 'E-mail', name: 'email', icon: <FaEnvelope />, classes: 'block w-full flex-1 rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', required: true, type: 'email', placeholder: "Digite o e-mail" },
       { label: 'Senha', name: 'password', icon: <FaLock />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', required: true, type: 'password', placeholder: "Digite a senha" },
     ]
   },
   {
-    title: 'Registrar', name: 'register', fields: [
+    title: 'Registrar', name: 'register', elements: [
       { label: 'Nome', name: 'nome', icon: <FaUser />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-green-500 focus:ring-green-500', required: true, type: 'text', placeholder: "Digite o nome" },
       { label: 'E-mail', name: 'email', icon: <FaEnvelope />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-green-500 focus:ring-green-500', required: true, type: 'email', placeholder: "Digite o e-mail" },
       { label: 'Senha', name: 'password', icon: <FaLock />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-green-500 focus:ring-green-500', required: true, type: 'password', placeholder: "Digite a senha" },
       { label: 'Confirme a senha', name: 'verify-password', icon: <FaLock />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-green-500 focus:ring-green-500', required: true, type: 'password', placeholder: "Confirme a senha" },
+      { label: 'Registrar', name: 'register', icon: '', classes: '', type: 'button', props: { required: true, type: 'password', placeholder: "Confirme a senha" } },
     ]
   },
 ]
