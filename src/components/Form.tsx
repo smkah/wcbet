@@ -1,7 +1,7 @@
 import { FormEvent, useEffect, useState, createElement } from "react";
 import { api } from "../utils/api";
 
-const Form = (props) => {
+const Form = (props: any) => {
 
     const [formData, setFormData] = useState({})
 
@@ -12,9 +12,9 @@ const Form = (props) => {
         const response = await api.post(`${name}/new`, formData)
         console.log(response)
     }
-    const handleChange = (e) => {
+    const handleChange = (e: any) => {
 
-        setFormData(oldValue => {
+        setFormData((oldValue: any) => {
             if (e.target.value) {
                 return { ...oldValue, [e.target.name]: e.target.value }
             } else {
@@ -26,7 +26,7 @@ const Form = (props) => {
 
     return <form className="flex flex-col items-center gap-2">
 
-        {elements.map(e => {
+        {elements.map((e: any) => {
             return createElement(
                 'div',
                 { className: "flex-col gap-2" },
