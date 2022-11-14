@@ -8,17 +8,16 @@ import { FaEnvelope, FaLock, FaUser } from 'react-icons/fa';
 const forms = [
   {
     title: 'Login', name: 'login', elements: [
-      { label: 'E-mail', name: 'email', icon: <FaEnvelope />, classes: 'block w-full flex-1 rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', required: true, type: 'email', placeholder: "Digite o e-mail" },
-      { label: 'Senha', name: 'password', icon: <FaLock />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', required: true, type: 'password', placeholder: "Digite a senha" },
+      { id: 1, label: 'E-mail', name: 'email', icon: <FaEnvelope />, type: { name: 'input' }, attrs: { classes: 'block w-full flex-1 rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', type: 'email', placeholder: "Digite o e-mail", required: true, }, },
+      // { id: 2, label: 'Senha', name: 'password', icon: <FaLock />, type: { name: 'input' }, attrs: { classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', type: 'password', placeholder: "Digite a senha", required: true, }, },
     ]
   },
   {
     title: 'Registrar', name: 'register', elements: [
-      { label: 'Nome', name: 'nome', icon: <FaUser />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-green-500 focus:ring-green-500', required: true, type: 'text', placeholder: "Digite o nome" },
-      { label: 'E-mail', name: 'email', icon: <FaEnvelope />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-green-500 focus:ring-green-500', required: true, type: 'email', placeholder: "Digite o e-mail" },
-      { label: 'Senha', name: 'password', icon: <FaLock />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-green-500 focus:ring-green-500', required: true, type: 'password', placeholder: "Digite a senha" },
-      { label: 'Confirme a senha', name: 'verify-password', icon: <FaLock />, classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-green-500 focus:ring-green-500', required: true, type: 'password', placeholder: "Confirme a senha" },
-      { label: 'Registrar', name: 'register', icon: '', classes: '', type: 'button', props: { required: true, type: 'password', placeholder: "Confirme a senha" } },
+      { id: 4, label: 'Nome', name: 'name', icon: <FaUser />, type: { name: 'input' }, attrs: { classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-green-500 focus:ring-green-500', type: 'text', placeholder: "Digite o nome", required: true } },
+      { id: 5, label: 'E-mail', name: 'email', icon: <FaEnvelope />, type: { name: 'input' }, attrs: { classes: 'block w-full flex-1 rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', type: 'email', placeholder: "Digite o e-mail", required: true }, },
+      // { id: 6, label: 'Senha', name: 'password', icon: <FaLock />, type: { name: 'input' }, attrs: { classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', type: 'password', placeholder: "Digite a senha", required: true, }, },
+      // { id: 7, label: 'Confirme a senha', name: 'verify-password', icon: <FaLock />, type: { name: 'input' }, attrs: { classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', type: 'password', placeholder: "Repita a senha", required: true, }, },
     ]
   },
 ]

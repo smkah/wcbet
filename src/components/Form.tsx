@@ -1,7 +1,10 @@
 import { FormEvent, useEffect, useState, createElement } from "react";
 import { api } from "../utils/api";
+import { useRouter } from 'next/router'
 
 const Form = (props: any) => {
+
+    const router = useRouter()
 
     const [formData, setFormData] = useState({})
 
@@ -9,11 +12,12 @@ const Form = (props: any) => {
 
     const handleSubmit = async (e: FormEvent) => {
         e.preventDefault()
-        const response = await api.post(`${name}/new`, formData)
-        console.log(response)
+        if (Object.keys(e).length > 0) {
+            const response = await api.post(`${name}/new`, formData)
+            if (response.data.token) router.push('/dashboard')
+        }
     }
     const handleChange = (e: any) => {
-
         setFormData((oldValue: any) => {
             if (e.target.value) {
                 return { ...oldValue, [e.target.name]: e.target.value }
@@ -23,13 +27,12 @@ const Form = (props: any) => {
             }
         })
     }
-
     return <form className="flex flex-col items-center gap-2">
 
         {elements.map((e: any) => {
             return createElement(
                 'div',
-                { className: "flex-col gap-2" },
+                { className: "flex-col gap-2", key: e.id },
                 createElement(
                     'label',
                     { className: "block text-gray-700 font-bold" },
@@ -40,23 +43,11 @@ const Form = (props: any) => {
                     { className: "flex flex-row gap-2 items-center" },
                     e.icon,
                     createElement(
-                        'input',
-                        e.props
+                        e.type.name,
+                        { ...e.attrs, name: e.name, onChange: handleChange, id: e.name }
                     )
                 )
             )
-        })}
-
-        {/* {fields.map(e => {
-            return <div className="flex-col gap-2">
-                <label htmlFor={e.name} className="block text-gray-700">
-                    {e.label}
-                </label>
-                <div className="flex flex-row gap-2 items-center">
-                    {e.icon}
-                    <input onChange={handleChange} className={e.classes} {...e} />
-                </div>
-            </div>
         })}
         <button
             className="w-full py-1 bg-green-900 text-white rounded shadow"
@@ -64,8 +55,7 @@ const Form = (props: any) => {
             onClick={handleSubmit}
         >
             {title}
-        </button> */}
-        {JSON.stringify(formData)}
+        </button>
     </form>
 
 }
