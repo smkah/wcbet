@@ -12,10 +12,11 @@ const Form = (props: any) => {
 
     const handleSubmit = async (e: FormEvent) => {
         e.preventDefault()
-        if (Object.keys(e).length > 0) {
-            const response = await api.post(`${name}/new`, formData)
-            if (response.data.token) router.push('/dashboard')
-        }
+        alert('ok')
+        // if (Object.keys(e).length > 0) {
+        //     const response = await api.post(`${name}/new`, formData)
+        //     if (response.data.token) router.push('/dashboard')
+        // }
     }
     const handleChange = (e: any) => {
         setFormData((oldValue: any) => {
@@ -27,7 +28,10 @@ const Form = (props: any) => {
             }
         })
     }
-    return <form className="flex flex-col items-center gap-2">
+    return <form className="flex flex-col items-center gap-2"
+        autoComplete="on"
+        onSubmit={handleSubmit}
+    >
 
         {elements.map((e: any) => {
             return createElement(
@@ -52,7 +56,6 @@ const Form = (props: any) => {
         <button
             className="w-full py-1 bg-green-900 text-white rounded shadow"
             type="submit"
-            onClick={handleSubmit}
         >
             {title}
         </button>
