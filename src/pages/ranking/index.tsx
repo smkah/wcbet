@@ -6,7 +6,7 @@ import { FaEnvelope, FaLock, FaUser } from 'react-icons/fa';
 
 
 
-const Dashboard: NextPage = () => {
+const Ranking: NextPage = () => {
 
 
     return (
@@ -24,4 +24,4 @@ const Dashboard: NextPage = () => {
     )
 }
 
-export default Dashboard
+export default Ranking

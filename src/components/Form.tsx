@@ -5,18 +5,17 @@ import { useRouter } from 'next/router'
 const Form = (props: any) => {
 
     const router = useRouter()
-
     const [formData, setFormData] = useState({})
 
     const { title, name, elements } = props
 
     const handleSubmit = async (e: FormEvent) => {
         e.preventDefault()
-        alert('ok')
-        // if (Object.keys(e).length > 0) {
-        //     const response = await api.post(`${name}/new`, formData)
-        //     if (response.data.token) router.push('/dashboard')
-        // }
+        if (Object.keys(e).length > 0) {
+            const response = await api.post(`${name}/new`, formData)
+            if (response.data.token) router.push('/dashboard')
+            // if (response.data.token) router.push('/dashboard')
+        }
     }
     const handleChange = (e: any) => {
         setFormData((oldValue: any) => {
