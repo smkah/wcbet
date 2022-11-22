@@ -38,10 +38,10 @@ const Guesses: NextPage = () => {
         <div className="flex flex-col text-white items-center justify-center h-screen bg-gradient-to-r from-green-900 to-gray-900 ">
             <h1>{games && games.Results[0].CompetitionName[0].Description}</h1>
             <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
-                {/* {games && games.Results.map((g: any) => <CardGame {...g} />)} */}
+                {games && games.Results.map((g: any) => <CardGame {...g} />)}
             </div>
 
-            {games && console.log(groupBy(games.Results, 'GroupName'))}
+            {/* {games && console.log(groupBy(games.Results, 'GroupName'))} */}
         </div>
     )
 }

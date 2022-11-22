@@ -14,14 +14,18 @@ const CardGame = (props: any) => {
     return <div key={IdMatch} className="bg-white rounded p-4" >
         <div className="flex gap-2">
 
-            <h1 >{Away ? Away.Abbreviation : 'nada'} </h1>
-            <img src={awayFlagUrl} alt=""></img>
-            X
-            <img src={homeFlagUrl} />
             <h1> {Home ? Home.Abbreviation : 'nada'}</h1>
+            <img src={homeFlagUrl} alt="" />
+            <input className="w-10 font-semibold text-lg text-center border-gray-100 border" type="number" min={0} name={`home-${IdMatch}`} id={`home-${IdMatch}`} />
+            X
+            <input className="w-10 font-semibold text-lg text-center border-gray-100 border" type="number" min={0} name={`away-${IdMatch}`} id={`away-${IdMatch}`} />
+            <img src={awayFlagUrl} alt="" />
+            <h1 >{Away ? Away.Abbreviation : 'nada'} </h1>
 
         </div>
     </div>
 
 }
 export default CardGame;
+
+// https://products.aspose.com/cells/net/conversion/xlsx-to-json/
