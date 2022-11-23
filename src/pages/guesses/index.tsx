@@ -8,6 +8,8 @@ import { getImageSize } from 'next/dist/server/image-optimizer';
 import { JsonWebTokenError } from 'jsonwebtoken';
 import CardGame from '../../components/CardGame';
 
+import guesses from '../../assets/guesses.json'
+
 function groupBy(array: any, key: any) {
     return array.reduce((acc: any, item: any) => {
 
@@ -23,11 +25,15 @@ function groupBy(array: any, key: any) {
 const Guesses: NextPage = () => {
 
     const [games, setGames] = useState<any>(null)
-
+    const [user, setUser] = useState<any>(null)
 
     useEffect(() => {
+
+        localStorage.setItem('user', 'smkah');
+        setUser(localStorage.getItem('user'));
+
         (async function () {
-            const games = await axios.get('https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&IdSeason=255711')
+            const games = await axios.get('https://api.fifa.com/api/v3/calendar/matches?language=pt&idCompetition=17&IdSeason=255711')
             setGames(games.data)
         })()
 
@@ -35,11 +41,18 @@ const Guesses: NextPage = () => {
 
 
     return (
-        <div className="flex flex-col text-white items-center justify-center h-screen bg-gradient-to-r from-green-900 to-gray-900 ">
+        <div className="flex flex-col text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
             <h1>{games && games.Results[0].CompetitionName[0].Description}</h1>
             <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
-                {games && games.Results.map((g: any) => <CardGame {...g} />)}
+                {games && games.Results.map((g: any) => {
+                    const guess = guesses.filter((gs: any) => {
+                        return g.Home && g.Home.Abbreviation == gs.HomeISO && g.Away.Abbreviation && g.Away.Abbreviation == gs.AwayISO && gs.user == user
+                    })
+                    console.log(guess)
+                    return <CardGame {...g} guess={guess[0]} />
+                })}
             </div>
+            {/* {console.log(games)} */}
 
             {/* {games && console.log(groupBy(games.Results, 'GroupName'))} */}
         </div>

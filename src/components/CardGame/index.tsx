@@ -4,9 +4,7 @@ import Image from 'next/image'
 
 const CardGame = (props: any) => {
 
-    let { TeamName, Home, Away, IdMatch } = props
-
-    console.log(props)
+    let { TeamName, Home, Away, IdMatch, guess } = props
 
     const homeFlagUrl = Home && Home.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
     const awayFlagUrl = Away && Away.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
@@ -16,13 +14,20 @@ const CardGame = (props: any) => {
 
             <h1> {Home ? Home.Abbreviation : 'nada'}</h1>
             <img src={homeFlagUrl} alt="" />
-            <input className="w-10 font-semibold text-lg text-center border-gray-100 border" type="number" min={0} name={`home-${IdMatch}`} id={`home-${IdMatch}`} />
+            <span className="w-10 font-semibold text-lg text-center border-gray-100 border">{Home && Home.Score}</span>
+            {/* <input className="w-10 font-semibold text-lg text-center border-gray-100 border" type="number" min={0} name={`home-${IdMatch}`} id={`home-${IdMatch}`} value={Home && Home.Score} disabled /> */}
             X
-            <input className="w-10 font-semibold text-lg text-center border-gray-100 border" type="number" min={0} name={`away-${IdMatch}`} id={`away-${IdMatch}`} />
+            <span className="w-10 font-semibold text-lg text-center border-gray-100 border">{Away && Away.Score}</span>
+            {/* <input className="w-10 font-semibold text-lg text-center border-gray-100 border" type="number" min={0} name={`away-${IdMatch}`} id={`away-${IdMatch}`} value={Away && Away.Score} disabled /> */}
             <img src={awayFlagUrl} alt="" />
             <h1 >{Away ? Away.Abbreviation : 'nada'} </h1>
-
         </div>
+
+        {guess && (
+            <small className="flex justify-center gap-2 mt-2">
+                <b>Meu Palpite:</b> {guess.HomeISO} <b>{guess.HomeGuess}</b>  X {guess.AwayISO} <b>{guess.AwayGuess}</b>
+            </small>
+        )}
     </div>
 
 }
