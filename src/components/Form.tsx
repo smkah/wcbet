@@ -11,7 +11,8 @@ const Form = (props: any) => {
 
     const handleSubmit = async (e: FormEvent) => {
         e.preventDefault();
-        localStorage.setItem('user',e.target.value.name)
+        const {name} = e.target.value
+        localStorage.setItem('user', name)
         // if (Object.keys(e).length > 0) {
         //    const response = await api.post(`${name}/new`, formData)
         //    if (response.data.token) router.push('/dashboard')
