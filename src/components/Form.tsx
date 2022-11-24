@@ -13,6 +13,7 @@ const Form = (props: any) => {
         e.preventDefault();
         const {name} = e.target.value
         localStorage.setItem('user', name)
+        router.push('/guesses')
         // if (Object.keys(e).length > 0) {
         //    const response = await api.post(`${name}/new`, formData)
         //    if (response.data.token) router.push('/dashboard')
