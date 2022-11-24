@@ -12,7 +12,7 @@ const Form = (props: any) => {
     const handleSubmit = (e: any) => {
         e.preventDefault();
 
-        
+        // @ts-ignore
             localStorage.setItem('user', Object.keys(formData).length > 0 ? formData.nick : '')
             router.push('/guesses')
         
