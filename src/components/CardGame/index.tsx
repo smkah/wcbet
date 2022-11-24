@@ -6,8 +6,8 @@ function points (hs:any,as:any,gh:any,ga:any) {
 let p = 0;
 if (hs==gh && as==ga) return p=3;
 if (hs>gh && as>ga) return p=1;
-if (hs<gh && as<g) return p=1;
-return 
+if (hs<gh && as<ga) return p=1;
+return p;
 }
 
 const CardGame = (props: any) => {
