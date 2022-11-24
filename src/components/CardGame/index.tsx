@@ -3,9 +3,11 @@ import { useRouter } from 'next/router'
 import Image from 'next/image'
 
 function points (hs:any,as:any,gh:any,ga:any) {
-const p = 0;
-if (hs==gh && as==ga) p=3
-    return p
+let p = 0;
+if (hs==gh && as==ga) return p=3;
+if (hs>gh && as>ga) return p=1
+if (hs<gh && as<g) return p=1
+return 
 }
 
 const CardGame = (props: any) => {
