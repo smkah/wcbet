@@ -9,7 +9,7 @@ const Form = (props: any) => {
 
     const { title, name, elements } = props
 
-    const handleSubmit = async (e: FormEvent) => {
+    const handleSubmit = async (e: any) => {
         e.preventDefault();
         const {name} = e.target.value
         localStorage.setItem('user', name)
