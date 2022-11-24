@@ -14,7 +14,7 @@ const CardGame = (props: any) => {
 
     let { TeamName, Home, Away, IdMatch, guess } = props
 
-    let p = points(+Home.Score, +Away.Score,+guess.HomeGuess,+guess.AwayGuess)
+    
 
     const homeFlagUrl = Home && Home.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
     const awayFlagUrl = Away && Away.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
@@ -35,7 +35,7 @@ const CardGame = (props: any) => {
 
         {guess && (
             <small className="flex justify-center gap-2 mt-2">
-                <b>Meu Palpite:</b> {guess.HomeISO} <b>{guess.HomeGuess}</b>  X {guess.AwayISO} <b>{guess.AwayGuess}</b>. Pontos: {p}
+                <b>Meu Palpite:</b> {guess.HomeISO} <b>{guess.HomeGuess}</b>  X {guess.AwayISO} <b>{guess.AwayGuess}</b>. Pontos: {0}
             </small>
         )}
     </div>
