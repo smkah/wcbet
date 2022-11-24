@@ -7,14 +7,14 @@ let p = 0;
 if (hs==gh && as==ga) return p=3;
 if (hs>gh && as>ga) return p=1;
 if (hs<gh && as<ga) return p=1;
-return p; 
+return p;
 }
 
 const CardGame = (props: any) => {
 
     let { TeamName, Home, Away, IdMatch, guess } = props
 
-    let p = points(Home.Score, Away.Score,guess.HomeGuess,guess.AwayGuess)
+    let p = points(+Home.Score, +Away.Score,+guess.HomeGuess,+guess.AwayGuess)
 
     const homeFlagUrl = Home && Home.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
     const awayFlagUrl = Away && Away.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
