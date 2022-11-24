@@ -5,8 +5,8 @@ import Image from 'next/image'
 function points (hs:any,as:any,gh:any,ga:any) {
 let p = 0;
 if (hs==gh && as==ga) return p=3;
-if (hs>gh && as>ga) return p=1
-if (hs<gh && as<g) return p=1
+if (hs>gh && as>ga) return p=1;
+if (hs<gh && as<g) return p=1;
 return 
 }
 
@@ -14,7 +14,7 @@ const CardGame = (props: any) => {
 
     let { TeamName, Home, Away, IdMatch, guess } = props
 
-    const p = points(Home.Score, Away.Score,guess.HomeGuess,guess.AwayGues)
+    let p = points(Home.Score, Away.Score,guess.HomeGuess,guess.AwayGuess)
 
     const homeFlagUrl = Home && Home.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
     const awayFlagUrl = Away && Away.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
