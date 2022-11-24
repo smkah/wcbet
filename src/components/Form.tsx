@@ -11,11 +11,11 @@ const Form = (props: any) => {
 
     const handleSubmit = (e: any) => {
         e.preventDefault();
-alert(Object.keys(formData).length)
-        if (Object.keys(formData).length>0){
-            localStorage.setItem('user', 'smkah')
+
+        
+            localStorage.setItem('user', Object.keys(formData).length > 0 ? formData.nick : '')
             router.push('/guesses')
-        }
+        
         // if (Object.keys(e).length > 0) {
         //    const response = await api.post(`${name}/new`, formData)
         //    if (response.data.token) router.push('/dashboard')
