@@ -9,7 +9,7 @@ const Form = (props: any) => {
 
     const { title, name, elements } = props
 
-    const handleSubmit = async (e: any) => {
+    const handleSubmit = (e: any) => {
         e.preventDefault();
 
         if (Object.keys(formData).length>0){
