@@ -44,6 +44,7 @@ const Guesses: NextPage = () => {
             <h1>{games && games.Results[0].CompetitionName[0].Description}</h1>
             <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
                 {games && games.Results.map((g: any) => {
+                    //@ts-ignore
                     const guess = guesses.filter((gs: any) => {
                         return g.Home && g.Home.Abbreviation == gs.HomeISO && g.Away.Abbreviation && g.Away.Abbreviation == gs.AwayISO && gs.user == user
                     })
