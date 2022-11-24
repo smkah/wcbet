@@ -2,9 +2,17 @@ import { FormEvent, useEffect, useState, createElement } from "react";
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 
+function points (hs,as,gh,ga) {
+const p = 0;
+if (hs==gh && as==ga) p=3
+    return p
+}
+
 const CardGame = (props: any) => {
 
     let { TeamName, Home, Away, IdMatch, guess } = props
+
+    const p = points(Home.Score, Away.Score,guess.HomeGuess,guess.AwayGues)
 
     const homeFlagUrl = Home && Home.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
     const awayFlagUrl = Away && Away.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
@@ -25,7 +33,7 @@ const CardGame = (props: any) => {
 
         {guess && (
             <small className="flex justify-center gap-2 mt-2">
-                <b>Meu Palpite:</b> {guess.HomeISO} <b>{guess.HomeGuess}</b>  X {guess.AwayISO} <b>{guess.AwayGuess}</b>
+                <b>Meu Palpite:</b> {guess.HomeISO} <b>{guess.HomeGuess}</b>  X {guess.AwayISO} <b>{guess.AwayGuess}</b>. Pontos: {p}
             </small>
         )}
     </div>
