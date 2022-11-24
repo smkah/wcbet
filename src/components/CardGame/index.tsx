@@ -7,7 +7,7 @@ let p = 0;
 if (hs==gh && as==ga) return p=3;
 if (hs>gh && as>ga) return p=1;
 if (hs<gh && as<ga) return p=1;
-return p;
+return p; 
 }
 
 const CardGame = (props: any) => {
