@@ -135,7 +135,7 @@
         "Data": "11/24/2022",
         "Horario": "07:00:00 AM",
         "Home": "Sui�a",
-        "HomeISO": "CHE",
+        "HomeISO": "SUI",
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Camar�es",
@@ -157,7 +157,7 @@
         "Data": "11/24/2022",
         "Horario": "10:00:00 AM",
         "Home": "Uruguai",
-        "HomeISO": "URY",
+        "HomeISO": "URU",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Coreia do Sul",
@@ -168,7 +168,7 @@
         "Data": "11/24/2022",
         "Horario": "01:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "4",
         "AwayGuess": "1",
         "Away": "Gana",
@@ -326,7 +326,7 @@
         "HomeGuess": "3",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "smkah"
     },
     {
@@ -344,11 +344,11 @@
         "Data": "11/28/2022",
         "Horario": "04:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "smkah"
     },
     {
@@ -502,7 +502,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "smkah"
     },
     {
@@ -513,7 +513,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Portugal",
-        "AwayISO": "PRT",
+        "AwayISO": "POR",
         "user": "smkah"
     },
     {
@@ -524,7 +524,7 @@
         "HomeGuess": "0",
         "AwayGuess": "3",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "smkah"
     },
     {
@@ -927,7 +927,7 @@
         "Data": "11/24/2022",
         "Horario": "7:00",
         "Home": "Sui�a",
-        "HomeISO": "CHE",
+        "HomeISO": "SUI",
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Camar�es",
@@ -964,7 +964,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "lela"
     },
     {
@@ -986,14 +986,14 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "lela"
     },
     {
         "Data": "11/24/2022",
         "Horario": "10:00",
         "Home": "Uruguai",
-        "HomeISO": "URY",
+        "HomeISO": "URU",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Coreia do Sul",
@@ -1004,7 +1004,7 @@
         "Data": "11/24/2022",
         "Horario": "13:00",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Gana",
@@ -1026,11 +1026,11 @@
         "Data": "11/28/2022",
         "Horario": "16:00",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "lela"
     },
     {
@@ -1041,7 +1041,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Portugal",
-        "AwayISO": "PRT",
+        "AwayISO": "POR",
         "user": "lela"
     },
     {
@@ -1052,7 +1052,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "lela"
     },
     {
@@ -1455,7 +1455,7 @@
         "Data": "11/24/2022",
         "Horario": "7:00",
         "Home": "Sui�a",
-        "HomeISO": "CHE",
+        "HomeISO": "SUI",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Camar�es",
@@ -1492,7 +1492,7 @@
         "HomeGuess": "3",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "lucas"
     },
     {
@@ -1514,14 +1514,14 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "lucas"
     },
     {
         "Data": "11/24/2022",
         "Horario": "10:00",
         "Home": "Uruguai",
-        "HomeISO": "URY",
+        "HomeISO": "URU",
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Coreia do Sul",
@@ -1532,7 +1532,7 @@
         "Data": "11/24/2022",
         "Horario": "13:00",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Gana",
@@ -1554,11 +1554,11 @@
         "Data": "11/28/2022",
         "Horario": "16:00",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "4",
         "AwayGuess": "2",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "lucas"
     },
     {
@@ -1569,7 +1569,7 @@
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Portugal",
-        "AwayISO": "PRT",
+        "AwayISO": "POR",
         "user": "lucas"
     },
     {
@@ -1580,7 +1580,7 @@
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "lucas"
     },
     {
@@ -1983,7 +1983,7 @@
         "Data": "11/24/2022",
         "Horario": "07:00:00 AM",
         "Home": "Sui�a",
-        "HomeISO": "CHE",
+        "HomeISO": "SUI",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Camar�es",
@@ -2020,7 +2020,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "dina"
     },
     {
@@ -2042,14 +2042,14 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "dina"
     },
     {
         "Data": "11/24/2022",
         "Horario": "10:00:00 AM",
         "Home": "Uruguai",
-        "HomeISO": "URY",
+        "HomeISO": "URU",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Coreia do Sul",
@@ -2060,7 +2060,7 @@
         "Data": "11/24/2022",
         "Horario": "01:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Gana",
@@ -2082,11 +2082,11 @@
         "Data": "11/28/2022",
         "Horario": "04:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "dina"
     },
     {
@@ -2097,7 +2097,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Portugal",
-        "AwayISO": "PRT",
+        "AwayISO": "POR",
         "user": "dina"
     },
     {
@@ -2108,7 +2108,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "dina"
     },
     {
@@ -2511,7 +2511,7 @@
         "Data": "11/24/2022",
         "Horario": "07:00:00 AM",
         "Home": "Sui�a",
-        "HomeISO": "CHE",
+        "HomeISO": "SUI",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Camar�es",
@@ -2548,7 +2548,7 @@
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "biel"
     },
     {
@@ -2570,14 +2570,14 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "biel"
     },
     {
         "Data": "11/24/2022",
         "Horario": "10:00:00 AM",
         "Home": "Uruguai",
-        "HomeISO": "URY",
+        "HomeISO": "URU",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Coreia do Sul",
@@ -2588,7 +2588,7 @@
         "Data": "11/24/2022",
         "Horario": "01:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "3",
         "AwayGuess": "1",
         "Away": "Gana",
@@ -2610,11 +2610,11 @@
         "Data": "11/28/2022",
         "Horario": "04:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "biel"
     },
     {
@@ -2625,7 +2625,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Portugal",
-        "AwayISO": "PRT",
+        "AwayISO": "POR",
         "user": "biel"
     },
     {
@@ -2636,7 +2636,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "biel"
     },
     {
@@ -3039,7 +3039,7 @@
         "Data": "11/24/2022",
         "Horario": "07:00:00 AM",
         "Home": "Sui�a",
-        "HomeISO": "CHE",
+        "HomeISO": "SUI",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Camar�es",
@@ -3076,7 +3076,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "nida"
     },
     {
@@ -3098,14 +3098,14 @@
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "nida"
     },
     {
         "Data": "11/24/2022",
         "Horario": "10:00:00 AM",
         "Home": "Uruguai",
-        "HomeISO": "URY",
+        "HomeISO": "URU",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Coreia do Sul",
@@ -3116,7 +3116,7 @@
         "Data": "11/24/2022",
         "Horario": "01:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Gana",
@@ -3138,11 +3138,11 @@
         "Data": "11/28/2022",
         "Horario": "04:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "nida"
     },
     {
@@ -3153,7 +3153,7 @@
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Portugal",
-        "AwayISO": "PRT",
+        "AwayISO": "POR",
         "user": "nida"
     },
     {
@@ -3164,7 +3164,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "nida"
     },
     {
@@ -3567,7 +3567,7 @@
         "Data": "11/24/2022",
         "Horario": "07:00:00 AM",
         "Home": "Sui�a",
-        "HomeISO": "CHE",
+        "HomeISO": "SUI",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Camar�es",
@@ -3604,7 +3604,7 @@
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "clara"
     },
     {
@@ -3626,14 +3626,14 @@
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "clara"
     },
     {
         "Data": "11/24/2022",
         "Horario": "10:00:00 AM",
         "Home": "Uruguai",
-        "HomeISO": "URY",
+        "HomeISO": "URU",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Coreia do Sul",
@@ -3644,7 +3644,7 @@
         "Data": "11/24/2022",
         "Horario": "01:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Gana",
@@ -3666,11 +3666,11 @@
         "Data": "11/28/2022",
         "Horario": "04:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "3",
         "AwayGuess": "3",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "clara"
     },
     {
@@ -3681,7 +3681,7 @@
         "HomeGuess": "0",
         "AwayGuess": "4",
         "Away": "Portugal",
-        "AwayISO": "PRT",
+        "AwayISO": "POR",
         "user": "clara"
     },
     {
@@ -3692,7 +3692,7 @@
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "clara"
     },
     {
@@ -4095,7 +4095,7 @@
         "Data": "11/24/2022",
         "Horario": "07:00:00 AM",
         "Home": "Sui�a",
-        "HomeISO": "CHE",
+        "HomeISO": "SUI",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Camar�es",
@@ -4132,7 +4132,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "cleber"
     },
     {
@@ -4154,14 +4154,14 @@
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "cleber"
     },
     {
         "Data": "11/24/2022",
         "Horario": "10:00:00 AM",
         "Home": "Uruguai",
-        "HomeISO": "URY",
+        "HomeISO": "URU",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Coreia do Sul",
@@ -4172,7 +4172,7 @@
         "Data": "11/24/2022",
         "Horario": "01:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Gana",
@@ -4194,11 +4194,11 @@
         "Data": "11/28/2022",
         "Horario": "04:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "cleber"
     },
     {
@@ -4209,7 +4209,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Portugal",
-        "AwayISO": "PRT",
+        "AwayISO": "POR",
         "user": "cleber"
     },
     {
@@ -4220,7 +4220,7 @@
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "cleber"
     },
     {
@@ -4623,7 +4623,7 @@
         "Data": "11/24/2022",
         "Horario": "07:00:00 AM",
         "Home": "Sui�a",
-        "HomeISO": "CHE",
+        "HomeISO": "SUI",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Camar�es",
@@ -4660,7 +4660,7 @@
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "doca"
     },
     {
@@ -4682,14 +4682,14 @@
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Sui�a",
-        "AwayISO": "CHE",
+        "AwayISO": "SUI",
         "user": "doca"
     },
     {
         "Data": "11/24/2022",
         "Horario": "10:00:00 AM",
         "Home": "Uruguai",
-        "HomeISO": "URY",
+        "HomeISO": "URU",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Coreia do Sul",
@@ -4700,7 +4700,7 @@
         "Data": "11/24/2022",
         "Horario": "01:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Gana",
@@ -4722,11 +4722,11 @@
         "Data": "11/28/2022",
         "Horario": "04:00:00 PM",
         "Home": "Portugal",
-        "HomeISO": "PRT",
+        "HomeISO": "POR",
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "doca"
     },
     {
@@ -4737,7 +4737,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Portugal",
-        "AwayISO": "PRT",
+        "AwayISO": "POR",
         "user": "doca"
     },
     {
@@ -4748,7 +4748,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Uruguai",
-        "AwayISO": "URY",
+        "AwayISO": "URU",
         "user": "doca"
     }
 ]
