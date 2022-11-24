@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+oimport type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
@@ -29,7 +29,6 @@ const Guesses: NextPage = () => {
 
     useEffect(() => {
 
-        localStorage.setItem('user', 'smkah');
         setUser(localStorage.getItem('user'));
 
         (async function () {
