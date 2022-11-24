@@ -12,7 +12,7 @@ const Form = (props: any) => {
     const handleSubmit = async (e: any) => {
         e.preventDefault();
         const v = e.target.value
-        alert(v)
+        alert(JSON.stringify(formData))
         localStorage.setItem('user', e)
         router.push('/guesses')
         // if (Object.keys(e).length > 0) {
