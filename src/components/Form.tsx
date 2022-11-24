@@ -11,9 +11,9 @@ const Form = (props: any) => {
 
     const handleSubmit = (e: any) => {
         e.preventDefault();
-
+alert(Object.keys(formData).length)
         if (Object.keys(formData).length>0){
-            localStorage.setItem('user', formData.nick)
+            localStorage.setItem('user', 'smkah')
             router.push('/guesses')
         }
         // if (Object.keys(e).length > 0) {
