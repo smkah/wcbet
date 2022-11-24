@@ -18,7 +18,7 @@
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Holanda",
-        "AwayISO": "NLD",
+        "AwayISO": "NED",
         "user": "smkah"
     },
     {
@@ -50,8 +50,8 @@
         "HomeISO": "ARG",
         "HomeGuess": "2",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "smkah"
     },
     {
@@ -69,7 +69,7 @@
         "Data": "11/22/2022",
         "Horario": "10:00:00 AM",
         "Home": "Dinamarca",
-        "HomeISO": "DNK",
+        "HomeISO": "DEN",
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Tun�sia",
@@ -190,7 +190,7 @@
         "Data": "11/25/2022",
         "Horario": "01:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Equador",
@@ -226,8 +226,8 @@
         "HomeISO": "POL",
         "HomeGuess": "2",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "smkah"
     },
     {
@@ -260,7 +260,7 @@
         "HomeGuess": "3",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "smkah"
     },
     {
@@ -355,7 +355,7 @@
         "Data": "11/29/2022",
         "Horario": "12:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Qatar",
@@ -409,8 +409,8 @@
     {
         "Data": "11/30/2022",
         "Horario": "04:00:00 PM",
-        "Home": "Ar�bia Saudita",
-        "HomeISO": "SAU",
+        "Home": "Ar�bia KSAdita",
+        "HomeISO": "KSA",
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "M�xico",
@@ -436,7 +436,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "smkah"
     },
     {
@@ -546,7 +546,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Holanda",
-        "AwayISO": "NLD",
+        "AwayISO": "NED",
         "user": "lela"
     },
     {
@@ -564,7 +564,7 @@
         "Data": "11/25/2022",
         "Horario": "13:00",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "0",
         "AwayGuess": "0",
         "Away": "Equador",
@@ -575,7 +575,7 @@
         "Data": "11/29/2022",
         "Horario": "12:00",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Qatar",
@@ -666,8 +666,8 @@
         "HomeISO": "ARG",
         "HomeGuess": "3",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "lela"
     },
     {
@@ -688,8 +688,8 @@
         "HomeISO": "POL",
         "HomeGuess": "2",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "lela"
     },
     {
@@ -717,8 +717,8 @@
     {
         "Data": "11/30/2022",
         "Horario": "16:00",
-        "Home": "Ar�bia Saudita",
-        "HomeISO": "SAU",
+        "Home": "Ar�bia KSAdita",
+        "HomeISO": "KSA",
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "M�xico",
@@ -729,7 +729,7 @@
         "Data": "11/22/2022",
         "Horario": "10:00",
         "Home": "Dinamarca",
-        "HomeISO": "DNK",
+        "HomeISO": "DEN",
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Tun�sia",
@@ -766,7 +766,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "lela"
     },
     {
@@ -788,7 +788,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "lela"
     },
     {
@@ -1074,7 +1074,7 @@
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Holanda",
-        "AwayISO": "NLD",
+        "AwayISO": "NED",
         "user": "lucas"
     },
     {
@@ -1092,7 +1092,7 @@
         "Data": "11/25/2022",
         "Horario": "13:00",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Equador",
@@ -1103,7 +1103,7 @@
         "Data": "11/29/2022",
         "Horario": "12:00",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "4",
         "AwayGuess": "0",
         "Away": "Qatar",
@@ -1194,8 +1194,8 @@
         "HomeISO": "ARG",
         "HomeGuess": "3",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "lucas"
     },
     {
@@ -1216,8 +1216,8 @@
         "HomeISO": "POL",
         "HomeGuess": "2",
         "AwayGuess": "1",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "lucas"
     },
     {
@@ -1245,8 +1245,8 @@
     {
         "Data": "11/30/2022",
         "Horario": "16:00",
-        "Home": "Ar�bia Saudita",
-        "HomeISO": "SAU",
+        "Home": "Ar�bia KSAdita",
+        "HomeISO": "KSA",
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "M�xico",
@@ -1257,7 +1257,7 @@
         "Data": "11/22/2022",
         "Horario": "10:00",
         "Home": "Dinamarca",
-        "HomeISO": "DNK",
+        "HomeISO": "DEN",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Tun�sia",
@@ -1294,7 +1294,7 @@
         "HomeGuess": "3",
         "AwayGuess": "3",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "lucas"
     },
     {
@@ -1316,7 +1316,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "lucas"
     },
     {
@@ -1602,7 +1602,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Holanda",
-        "AwayISO": "NLD",
+        "AwayISO": "NED",
         "user": "dina"
     },
     {
@@ -1620,7 +1620,7 @@
         "Data": "11/25/2022",
         "Horario": "01:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Equador",
@@ -1631,7 +1631,7 @@
         "Data": "11/29/2022",
         "Horario": "12:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "3",
         "AwayGuess": "1",
         "Away": "Qatar",
@@ -1722,8 +1722,8 @@
         "HomeISO": "ARG",
         "HomeGuess": "2",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "dina"
     },
     {
@@ -1744,8 +1744,8 @@
         "HomeISO": "POL",
         "HomeGuess": "3",
         "AwayGuess": "1",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "dina"
     },
     {
@@ -1773,8 +1773,8 @@
     {
         "Data": "11/30/2022",
         "Horario": "04:00:00 PM",
-        "Home": "Ar�bia Saudita",
-        "HomeISO": "SAU",
+        "Home": "Ar�bia KSAdita",
+        "HomeISO": "KSA",
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "M�xico",
@@ -1785,7 +1785,7 @@
         "Data": "11/22/2022",
         "Horario": "10:00:00 AM",
         "Home": "Dinamarca",
-        "HomeISO": "DNK",
+        "HomeISO": "DEN",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Tun�sia",
@@ -1822,7 +1822,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "dina"
     },
     {
@@ -1844,7 +1844,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "dina"
     },
     {
@@ -2130,7 +2130,7 @@
         "HomeGuess": "0",
         "AwayGuess": "3",
         "Away": "Holanda",
-        "AwayISO": "NLD",
+        "AwayISO": "NED",
         "user": "biel"
     },
     {
@@ -2148,7 +2148,7 @@
         "Data": "11/25/2022",
         "Horario": "01:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Equador",
@@ -2159,7 +2159,7 @@
         "Data": "11/29/2022",
         "Horario": "12:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "4",
         "AwayGuess": "0",
         "Away": "Qatar",
@@ -2250,8 +2250,8 @@
         "HomeISO": "ARG",
         "HomeGuess": "3",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "biel"
     },
     {
@@ -2272,8 +2272,8 @@
         "HomeISO": "POL",
         "HomeGuess": "2",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "biel"
     },
     {
@@ -2301,8 +2301,8 @@
     {
         "Data": "11/30/2022",
         "Horario": "04:00:00 PM",
-        "Home": "Ar�bia Saudita",
-        "HomeISO": "SAU",
+        "Home": "Ar�bia KSAdita",
+        "HomeISO": "KSA",
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "M�xico",
@@ -2313,7 +2313,7 @@
         "Data": "11/22/2022",
         "Horario": "10:00:00 AM",
         "Home": "Dinamarca",
-        "HomeISO": "DNK",
+        "HomeISO": "DEN",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Tun�sia",
@@ -2350,7 +2350,7 @@
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "biel"
     },
     {
@@ -2372,7 +2372,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "biel"
     },
     {
@@ -2658,7 +2658,7 @@
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Holanda",
-        "AwayISO": "NLD",
+        "AwayISO": "NED",
         "user": "nida"
     },
     {
@@ -2676,7 +2676,7 @@
         "Data": "11/25/2022",
         "Horario": "01:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Equador",
@@ -2687,7 +2687,7 @@
         "Data": "11/29/2022",
         "Horario": "12:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "3",
         "AwayGuess": "1",
         "Away": "Qatar",
@@ -2778,8 +2778,8 @@
         "HomeISO": "ARG",
         "HomeGuess": "3",
         "AwayGuess": "1",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "nida"
     },
     {
@@ -2800,8 +2800,8 @@
         "HomeISO": "POL",
         "HomeGuess": "1",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "nida"
     },
     {
@@ -2829,8 +2829,8 @@
     {
         "Data": "11/30/2022",
         "Horario": "04:00:00 PM",
-        "Home": "Ar�bia Saudita",
-        "HomeISO": "SAU",
+        "Home": "Ar�bia KSAdita",
+        "HomeISO": "KSA",
         "HomeGuess": "0",
         "AwayGuess": "3",
         "Away": "M�xico",
@@ -2841,7 +2841,7 @@
         "Data": "11/22/2022",
         "Horario": "10:00:00 AM",
         "Home": "Dinamarca",
-        "HomeISO": "DNK",
+        "HomeISO": "DEN",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Tun�sia",
@@ -2878,7 +2878,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "nida"
     },
     {
@@ -2900,7 +2900,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "nida"
     },
     {
@@ -3186,7 +3186,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Holanda",
-        "AwayISO": "NLD",
+        "AwayISO": "NED",
         "user": "clara"
     },
     {
@@ -3204,7 +3204,7 @@
         "Data": "11/25/2022",
         "Horario": "01:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Equador",
@@ -3215,7 +3215,7 @@
         "Data": "11/29/2022",
         "Horario": "12:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Qatar",
@@ -3306,8 +3306,8 @@
         "HomeISO": "ARG",
         "HomeGuess": "3",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "clara"
     },
     {
@@ -3328,8 +3328,8 @@
         "HomeISO": "POL",
         "HomeGuess": "2",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "clara"
     },
     {
@@ -3357,8 +3357,8 @@
     {
         "Data": "11/30/2022",
         "Horario": "04:00:00 PM",
-        "Home": "Ar�bia Saudita",
-        "HomeISO": "SAU",
+        "Home": "Ar�bia KSAdita",
+        "HomeISO": "KSA",
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "M�xico",
@@ -3369,7 +3369,7 @@
         "Data": "11/22/2022",
         "Horario": "10:00:00 AM",
         "Home": "Dinamarca",
-        "HomeISO": "DNK",
+        "HomeISO": "DEN",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Tun�sia",
@@ -3406,7 +3406,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "clara"
     },
     {
@@ -3428,7 +3428,7 @@
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "clara"
     },
     {
@@ -3714,7 +3714,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Holanda",
-        "AwayISO": "NLD",
+        "AwayISO": "NED",
         "user": "cleber"
     },
     {
@@ -3732,7 +3732,7 @@
         "Data": "11/25/2022",
         "Horario": "01:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Equador",
@@ -3743,7 +3743,7 @@
         "Data": "11/29/2022",
         "Horario": "12:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Qatar",
@@ -3834,8 +3834,8 @@
         "HomeISO": "ARG",
         "HomeGuess": "3",
         "AwayGuess": "1",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "cleber"
     },
     {
@@ -3856,8 +3856,8 @@
         "HomeISO": "POL",
         "HomeGuess": "2",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "cleber"
     },
     {
@@ -3885,8 +3885,8 @@
     {
         "Data": "11/30/2022",
         "Horario": "04:00:00 PM",
-        "Home": "Ar�bia Saudita",
-        "HomeISO": "SAU",
+        "Home": "Ar�bia KSAdita",
+        "HomeISO": "KSA",
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "M�xico",
@@ -3897,7 +3897,7 @@
         "Data": "11/22/2022",
         "Horario": "10:00:00 AM",
         "Home": "Dinamarca",
-        "HomeISO": "DNK",
+        "HomeISO": "DEN",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Tun�sia",
@@ -3934,7 +3934,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "cleber"
     },
     {
@@ -3956,7 +3956,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "cleber"
     },
     {
@@ -4242,7 +4242,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Holanda",
-        "AwayISO": "NLD",
+        "AwayISO": "NED",
         "user": "doca"
     },
     {
@@ -4260,7 +4260,7 @@
         "Data": "11/25/2022",
         "Horario": "01:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Equador",
@@ -4271,7 +4271,7 @@
         "Data": "11/29/2022",
         "Horario": "12:00:00 PM",
         "Home": "Holanda",
-        "HomeISO": "NLD",
+        "HomeISO": "NED",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Qatar",
@@ -4362,8 +4362,8 @@
         "HomeISO": "ARG",
         "HomeGuess": "2",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "doca"
     },
     {
@@ -4384,8 +4384,8 @@
         "HomeISO": "POL",
         "HomeGuess": "1",
         "AwayGuess": "0",
-        "Away": "Ar�bia Saudita",
-        "AwayISO": "SAU",
+        "Away": "Ar�bia KSAdita",
+        "AwayISO": "KSA",
         "user": "doca"
     },
     {
@@ -4413,8 +4413,8 @@
     {
         "Data": "11/30/2022",
         "Horario": "04:00:00 PM",
-        "Home": "Ar�bia Saudita",
-        "HomeISO": "SAU",
+        "Home": "Ar�bia KSAdita",
+        "HomeISO": "KSA",
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "M�xico",
@@ -4425,7 +4425,7 @@
         "Data": "11/22/2022",
         "Horario": "10:00:00 AM",
         "Home": "Dinamarca",
-        "HomeISO": "DNK",
+        "HomeISO": "DEN",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Tun�sia",
@@ -4462,7 +4462,7 @@
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "doca"
     },
     {
@@ -4484,7 +4484,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Dinamarca",
-        "AwayISO": "DNK",
+        "AwayISO": "DEN",
         "user": "doca"
     },
     {
