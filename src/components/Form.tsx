@@ -11,9 +11,9 @@ const Form = (props: any) => {
 
     const handleSubmit = async (e: any) => {
         e.preventDefault();
-        const {name} = e.target.value
-        alert(name)
-        localStorage.setItem('user', name)
+        const v = e.target.value
+        alert(v)
+        localStorage.setItem('user', e)
         router.push('/guesses')
         // if (Object.keys(e).length > 0) {
         //    const response = await api.post(`${name}/new`, formData)
