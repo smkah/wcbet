@@ -8,7 +8,7 @@ import { FaEnvelope, FaLock, FaUser } from 'react-icons/fa';
 const forms = [
   {
     title: 'Login', name: 'login', elements: [
-      { id: 1, label: 'E-mail', name: 'email', icon: <FaEnvelope />, type: { name: 'input' }, attrs: { classes: 'block w-full flex-1 rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', type: 'email', placeholder: "Digite o e-mail", required: true, }, },
+      { id: 1, label: 'Apelido', name: 'nick', icon: <FaUser />, type: { name: 'input' }, attrs: { classes: 'block w-full flex-1 rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', type: 'text', placeholder: "Digite seu apelido", required: true, }, },
       // { id: 2, label: 'Senha', name: 'password', icon: <FaLock />, type: { name: 'input' }, attrs: { classes: 'block w-full flex-1 rounded-none rounded-r-md border-gray-100 focus:border-green-500 focus:ring-green-500', type: 'password', placeholder: "Digite a senha", required: true, }, },
     ]
   },

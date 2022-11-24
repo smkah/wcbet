@@ -10,12 +10,13 @@ const Form = (props: any) => {
     const { title, name, elements } = props
 
     const handleSubmit = async (e: FormEvent) => {
-        e.preventDefault()
-        if (Object.keys(e).length > 0) {
-            const response = await api.post(`${name}/new`, formData)
-            if (response.data.token) router.push('/dashboard')
+        e.preventDefault();
+        localStorage.setItem('user',e.target.value.name)
+        // if (Object.keys(e).length > 0) {
+        //    const response = await api.post(`${name}/new`, formData)
+        //    if (response.data.token) router.push('/dashboard')
             // if (response.data.token) router.push('/dashboard')
-        }
+        //}
     }
     const handleChange = (e: any) => {
         setFormData((oldValue: any) => {
