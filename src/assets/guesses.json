@@ -91,7 +91,7 @@
         "Data": "11/23/2022",
         "Horario": "10:00:00 AM",
         "Home": "Alemanha",
-        "HomeISO": "DEU",
+        "HomeISO": "GER",
         "HomeGuess": "3",
         "AwayGuess": "1",
         "Away": "Jap�o",
@@ -106,7 +106,7 @@
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "smkah"
     },
     {
@@ -117,7 +117,7 @@
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Cro�cia",
-        "AwayISO": "HRV",
+        "AwayISO": "CRO",
         "user": "smkah"
     },
     {
@@ -271,7 +271,7 @@
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "smkah"
     },
     {
@@ -282,7 +282,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "smkah"
     },
     {
@@ -300,7 +300,7 @@
         "Data": "11/27/2022",
         "Horario": "01:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Canad�",
@@ -454,18 +454,18 @@
         "Data": "12/01/2022",
         "Horario": "04:00:00 PM",
         "Home": "Costa Rica",
-        "HomeISO": "CRI",
+        "HomeISO": "CRC",
         "HomeGuess": "1",
         "AwayGuess": "4",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "smkah"
     },
     {
         "Data": "12/01/2022",
         "Horario": "12:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "B�lgica",
@@ -795,7 +795,7 @@
         "Data": "11/23/2022",
         "Horario": "10:00",
         "Home": "Alemanha",
-        "HomeISO": "DEU",
+        "HomeISO": "GER",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Jap�o",
@@ -810,7 +810,7 @@
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "lela"
     },
     {
@@ -821,7 +821,7 @@
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "lela"
     },
     {
@@ -832,7 +832,7 @@
         "HomeGuess": "2",
         "AwayGuess": "3",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "lela"
     },
     {
@@ -850,11 +850,11 @@
         "Data": "12/01/2022",
         "Horario": "16:00",
         "Home": "Costa Rica",
-        "HomeISO": "CRI",
+        "HomeISO": "CRC",
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "lela"
     },
     {
@@ -865,7 +865,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Cro�cia",
-        "AwayISO": "HRV",
+        "AwayISO": "CRO",
         "user": "lela"
     },
     {
@@ -894,7 +894,7 @@
         "Data": "11/27/2022",
         "Horario": "13:00",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Canad�",
@@ -905,7 +905,7 @@
         "Data": "12/01/2022",
         "Horario": "12:00",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "B�lgica",
@@ -1323,7 +1323,7 @@
         "Data": "11/23/2022",
         "Horario": "10:00",
         "Home": "Alemanha",
-        "HomeISO": "DEU",
+        "HomeISO": "GER",
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Jap�o",
@@ -1338,7 +1338,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "lucas"
     },
     {
@@ -1349,7 +1349,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "lucas"
     },
     {
@@ -1360,7 +1360,7 @@
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "lucas"
     },
     {
@@ -1378,11 +1378,11 @@
         "Data": "12/01/2022",
         "Horario": "16:00",
         "Home": "Costa Rica",
-        "HomeISO": "CRI",
+        "HomeISO": "CRC",
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "lucas"
     },
     {
@@ -1393,7 +1393,7 @@
         "HomeGuess": "1",
         "AwayGuess": "4",
         "Away": "Cro�cia",
-        "AwayISO": "HRV",
+        "AwayISO": "CRO",
         "user": "lucas"
     },
     {
@@ -1422,7 +1422,7 @@
         "Data": "11/27/2022",
         "Horario": "13:00",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Canad�",
@@ -1433,7 +1433,7 @@
         "Data": "12/01/2022",
         "Horario": "12:00",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "2",
         "AwayGuess": "3",
         "Away": "B�lgica",
@@ -1851,7 +1851,7 @@
         "Data": "11/23/2022",
         "Horario": "10:00:00 AM",
         "Home": "Alemanha",
-        "HomeISO": "DEU",
+        "HomeISO": "GER",
         "HomeGuess": "3",
         "AwayGuess": "1",
         "Away": "Jap�o",
@@ -1866,7 +1866,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "dina"
     },
     {
@@ -1877,7 +1877,7 @@
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "dina"
     },
     {
@@ -1888,7 +1888,7 @@
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "dina"
     },
     {
@@ -1906,11 +1906,11 @@
         "Data": "12/01/2022",
         "Horario": "04:00:00 PM",
         "Home": "Costa Rica",
-        "HomeISO": "CRI",
+        "HomeISO": "CRC",
         "HomeGuess": "0",
         "AwayGuess": "2",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "dina"
     },
     {
@@ -1921,7 +1921,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Cro�cia",
-        "AwayISO": "HRV",
+        "AwayISO": "CRO",
         "user": "dina"
     },
     {
@@ -1950,7 +1950,7 @@
         "Data": "11/27/2022",
         "Horario": "01:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Canad�",
@@ -1961,7 +1961,7 @@
         "Data": "12/01/2022",
         "Horario": "12:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "B�lgica",
@@ -2379,7 +2379,7 @@
         "Data": "11/23/2022",
         "Horario": "10:00:00 AM",
         "Home": "Alemanha",
-        "HomeISO": "DEU",
+        "HomeISO": "GER",
         "HomeGuess": "4",
         "AwayGuess": "1",
         "Away": "Jap�o",
@@ -2394,7 +2394,7 @@
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "biel"
     },
     {
@@ -2405,7 +2405,7 @@
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "biel"
     },
     {
@@ -2416,7 +2416,7 @@
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "biel"
     },
     {
@@ -2434,11 +2434,11 @@
         "Data": "12/01/2022",
         "Horario": "04:00:00 PM",
         "Home": "Costa Rica",
-        "HomeISO": "CRI",
+        "HomeISO": "CRC",
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "biel"
     },
     {
@@ -2449,7 +2449,7 @@
         "HomeGuess": "0",
         "AwayGuess": "3",
         "Away": "Cro�cia",
-        "AwayISO": "HRV",
+        "AwayISO": "CRO",
         "user": "biel"
     },
     {
@@ -2478,7 +2478,7 @@
         "Data": "11/27/2022",
         "Horario": "01:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Canad�",
@@ -2489,7 +2489,7 @@
         "Data": "12/01/2022",
         "Horario": "12:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "B�lgica",
@@ -2907,7 +2907,7 @@
         "Data": "11/23/2022",
         "Horario": "10:00:00 AM",
         "Home": "Alemanha",
-        "HomeISO": "DEU",
+        "HomeISO": "GER",
         "HomeGuess": "3",
         "AwayGuess": "0",
         "Away": "Jap�o",
@@ -2922,7 +2922,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "nida"
     },
     {
@@ -2933,7 +2933,7 @@
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "nida"
     },
     {
@@ -2944,7 +2944,7 @@
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "nida"
     },
     {
@@ -2962,11 +2962,11 @@
         "Data": "12/01/2022",
         "Horario": "04:00:00 PM",
         "Home": "Costa Rica",
-        "HomeISO": "CRI",
+        "HomeISO": "CRC",
         "HomeGuess": "1",
         "AwayGuess": "2",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "nida"
     },
     {
@@ -2977,7 +2977,7 @@
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Cro�cia",
-        "AwayISO": "HRV",
+        "AwayISO": "CRO",
         "user": "nida"
     },
     {
@@ -3006,7 +3006,7 @@
         "Data": "11/27/2022",
         "Horario": "01:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Canad�",
@@ -3017,7 +3017,7 @@
         "Data": "12/01/2022",
         "Horario": "12:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "B�lgica",
@@ -3435,7 +3435,7 @@
         "Data": "11/23/2022",
         "Horario": "10:00:00 AM",
         "Home": "Alemanha",
-        "HomeISO": "DEU",
+        "HomeISO": "GER",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Jap�o",
@@ -3450,7 +3450,7 @@
         "HomeGuess": "3",
         "AwayGuess": "1",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "clara"
     },
     {
@@ -3461,7 +3461,7 @@
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "clara"
     },
     {
@@ -3472,7 +3472,7 @@
         "HomeGuess": "2",
         "AwayGuess": "2",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "clara"
     },
     {
@@ -3490,11 +3490,11 @@
         "Data": "12/01/2022",
         "Horario": "04:00:00 PM",
         "Home": "Costa Rica",
-        "HomeISO": "CRI",
+        "HomeISO": "CRC",
         "HomeGuess": "0",
         "AwayGuess": "3",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "clara"
     },
     {
@@ -3505,7 +3505,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Cro�cia",
-        "AwayISO": "HRV",
+        "AwayISO": "CRO",
         "user": "clara"
     },
     {
@@ -3534,7 +3534,7 @@
         "Data": "11/27/2022",
         "Horario": "01:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Canad�",
@@ -3545,7 +3545,7 @@
         "Data": "12/01/2022",
         "Horario": "12:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "B�lgica",
@@ -3963,7 +3963,7 @@
         "Data": "11/23/2022",
         "Horario": "10:00:00 AM",
         "Home": "Alemanha",
-        "HomeISO": "DEU",
+        "HomeISO": "GER",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Jap�o",
@@ -3978,7 +3978,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "cleber"
     },
     {
@@ -3989,7 +3989,7 @@
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "cleber"
     },
     {
@@ -4000,7 +4000,7 @@
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "cleber"
     },
     {
@@ -4018,11 +4018,11 @@
         "Data": "12/01/2022",
         "Horario": "04:00:00 PM",
         "Home": "Costa Rica",
-        "HomeISO": "CRI",
+        "HomeISO": "CRC",
         "HomeGuess": "1",
         "AwayGuess": "3",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "cleber"
     },
     {
@@ -4033,7 +4033,7 @@
         "HomeGuess": "0",
         "AwayGuess": "3",
         "Away": "Cro�cia",
-        "AwayISO": "HRV",
+        "AwayISO": "CRO",
         "user": "cleber"
     },
     {
@@ -4062,7 +4062,7 @@
         "Data": "11/27/2022",
         "Horario": "01:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Canad�",
@@ -4073,7 +4073,7 @@
         "Data": "12/01/2022",
         "Horario": "12:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "1",
         "AwayGuess": "1",
         "Away": "B�lgica",
@@ -4491,7 +4491,7 @@
         "Data": "11/23/2022",
         "Horario": "10:00:00 AM",
         "Home": "Alemanha",
-        "HomeISO": "DEU",
+        "HomeISO": "GER",
         "HomeGuess": "2",
         "AwayGuess": "1",
         "Away": "Jap�o",
@@ -4506,7 +4506,7 @@
         "HomeGuess": "2",
         "AwayGuess": "0",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "doca"
     },
     {
@@ -4517,7 +4517,7 @@
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Costa Rica",
-        "AwayISO": "CRI",
+        "AwayISO": "CRC",
         "user": "doca"
     },
     {
@@ -4528,7 +4528,7 @@
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "doca"
     },
     {
@@ -4546,11 +4546,11 @@
         "Data": "12/01/2022",
         "Horario": "04:00:00 PM",
         "Home": "Costa Rica",
-        "HomeISO": "CRI",
+        "HomeISO": "CRC",
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Alemanha",
-        "AwayISO": "DEU",
+        "AwayISO": "GER",
         "user": "doca"
     },
     {
@@ -4561,7 +4561,7 @@
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "Cro�cia",
-        "AwayISO": "HRV",
+        "AwayISO": "CRO",
         "user": "doca"
     },
     {
@@ -4590,7 +4590,7 @@
         "Data": "11/27/2022",
         "Horario": "01:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "1",
         "AwayGuess": "0",
         "Away": "Canad�",
@@ -4601,7 +4601,7 @@
         "Data": "12/01/2022",
         "Horario": "12:00:00 PM",
         "Home": "Cro�cia",
-        "HomeISO": "HRV",
+        "HomeISO": "CRO",
         "HomeGuess": "0",
         "AwayGuess": "1",
         "Away": "B�lgica",
