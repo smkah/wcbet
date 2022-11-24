@@ -2,7 +2,7 @@ import { FormEvent, useEffect, useState, createElement } from "react";
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 
-function points (hs,as,gh,ga) {
+function points (hs:any,as:any,gh:any,ga:any) {
 const p = 0;
 if (hs==gh && as==ga) p=3
     return p
