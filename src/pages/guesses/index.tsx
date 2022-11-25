@@ -48,12 +48,9 @@ const Guesses: NextPage = () => {
                     const guess = guesses.filter((gs: any) => {
                         return g.Home && g.Home.Abbreviation == gs.HomeISO && g.Away.Abbreviation && g.Away.Abbreviation == gs.AwayISO && gs.user == user
                     })
-                    console.log(guess)
                     return <CardGame {...g} guess={guess[0]} />
                 })}
             </div>
-            {/* {console.log(games)} */}
-
             {/* {games && console.log(groupBy(games.Results, 'GroupName'))} */}
         </div>
     )

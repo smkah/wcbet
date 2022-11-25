@@ -30,23 +30,22 @@ const Home: NextPage = () => {
     <div className="flex items-center justify-center h-screen bg-gradient-to-r from-green-900 to-gray-900 ">
       <div className="flex flex-col md:flex-row items-center gap-6">
 
-        {/* <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center">
           <Image
             src="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e3/2022_FIFA_World_Cup.svg/200px-2022_FIFA_World_Cup.svg.png"
             alt="logo copa 2022 qatar"
             width="150"
             height="150"
           />
-          <h1 className="text-white text-3xl font-semibold">Bolão da Copa</h1>
-          <h6 className="text-white italic">Uhhul! Façam suas apostas!</h6>
+          <h1 className="text-white text-2xl font-semibold">Bolão da Copa</h1>
+          {/* <h6 className="text-white italic">Uhhul! Façam suas apostas!</h6> */}
 
-        </div> */}
+        </div>
 
         <div className="flex flex-col bg-white shadow rounded p-4 gap-2">
           <div className="p-2 rounded w-full">
             {registred ? <><Form {...forms[0]} /><span className="text-xs">Faça <a className="font-bold cursor-pointer" onClick={() => { setRegistred(false) }}>aqui</a> o seu registro.</span></> : <Form {...forms[1]} />}
           </div>
-
         </div>
 
       </div>

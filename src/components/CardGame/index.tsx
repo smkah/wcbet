@@ -2,26 +2,36 @@ import { FormEvent, useEffect, useState, createElement } from "react";
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 
-function points(hs: any, as: any, gh: any, ga: any) {
-    let p = 0;
-    if (hs == gh && as == ga) return p = 3;
-    if (hs > gh && as > ga) return p = 1;
-    if (hs < gh && as < ga) return p = 1;
-    return p;
-}
-
 const CardGame = (props: any) => {
 
-    let { TeamName, Home, Away, IdMatch, guess } = props
+    function handlePoints(hs: any, as: any, gh: any, ga: any) {
 
-    const [p, setP] = useState(0)
+        let p = 0;
+        if (hs == gh && as == ga) return p = 3;
+        if (hs > as && gh > ga) return p = 1;
+        if (hs < as && gh < ga) return p = 1;
+        if (hs == as && gh == ga) return p = 1;
+        return p;
 
-    setP(99)
+    }
+
+    const [points, setPoints] = useState(0)
+
+    let { TeamName, Home, Away, IdMatch, GroupName, LocalDate, guess } = props
+
+    useEffect(() => {
+        if (guess) setPoints(handlePoints(Home.Score, Away.Score, guess.HomeGuess, guess.AwayGuess))
+    }, [])
 
     const homeFlagUrl = Home && Home.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
     const awayFlagUrl = Away && Away.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
 
     return <div key={IdMatch} className="bg-white rounded p-4" >
+        <div className="flex justify-center mb-2 gap-2">
+            <b>{GroupName.length > 0 && GroupName[0].Description}</b>
+            <span>{JSON.stringify(LocalDate)}</span>
+            {/* <span>{LocalDate && ((LocalDate.getDate())) + "/" + ((LocalDate.getMonth() + 1)) + "/" + LocalDate.getFullYear()}</span> */}
+        </div>
         <div className="flex gap-2">
 
             <h1> {Home ? Home.Abbreviation : 'nada'}</h1>
@@ -35,9 +45,10 @@ const CardGame = (props: any) => {
             <h1 >{Away ? Away.Abbreviation : 'nada'} </h1>
         </div>
 
+
         {guess && (
             <small className="flex justify-center gap-2 mt-2">
-                <b>Meu Palpite:</b> {guess.HomeISO} <b>{guess.HomeGuess}</b>  X {guess.AwayISO} <b>{guess.AwayGuess}</b> - Pontos: {p}
+                <b>Meu Palpite:</b> {guess.HomeISO} <b>{guess.HomeGuess}</b>  X {guess.AwayISO} <b>{guess.AwayGuess}</b> - <b>Pontos: </b><span className="bg-green-800 text-white w-5 h-5 text-center rounded font-bold">{points}</span>
             </small>
         )}
     </div>

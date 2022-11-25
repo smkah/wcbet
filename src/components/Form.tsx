@@ -13,9 +13,9 @@ const Form = (props: any) => {
         e.preventDefault();
 
         // @ts-ignore⁸
-            localStorage.setItem('user', Object.keys(formData).length > 0 ? formData.nick : '')
-            router.push('/guesses')
-        
+        localStorage.setItem('user', Object.keys(formData).length > 0 ? formData.nick : '')
+        router.push('/guesses')
+
         // if (Object.keys(e).length > 0) {
         //    const response = await api.post(`${name}/new`, formData)
         //    if (response.data.token) router.push('/dashboard')
