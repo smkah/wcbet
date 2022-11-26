@@ -44,7 +44,7 @@ let ranking = guesses.reduce((group: any, gs: any) => {
   //    return g.Home && g.Home.Abbreviation == gs.HomeISO && g.Away.Abbreviation && g.Away.Abbreviation == gs.AwayISO
   // })
 // @ts-ignore
-  group[newkey].push({gs.user, points: 1})
+  group[newkey].push({"user":gs.user, "points": 1})
   return group
 }, []);
 
