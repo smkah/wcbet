@@ -7,7 +7,7 @@ import axios from 'axios'
 import { getImageSize } from 'next/dist/server/image-optimizer';
 import { JsonWebTokenError } from 'jsonwebtoken';
 import CardGame from '../../components/CardGame';
-
+import { useRouter } from 'next/router'
 import guesses from '../../assets/guesses.json'
 
 function groupBy(array: any, key: any) {
@@ -23,6 +23,8 @@ function groupBy(array: any, key: any) {
 
 
 const Guesses: NextPage = () => {
+
+const router = useRouter();
 
     const [games, setGames] = useState<any>(null)
     const [user, setUser] = useState<any>(null)
@@ -42,6 +44,8 @@ const Guesses: NextPage = () => {
     return (
         <div className="flex flex-col text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
             <h1>{games && games.Results[0].CompetitionName[0].Description}</h1>
+<h2>Olá, {user}!</h2>
+<button className="w-screen rounded bg-white text-black" onClick={()=>router.push("ranking")}>Ranking</button>
             <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
                 {games && games.Results.map((g: any) => {
                     //@ts-ignore
