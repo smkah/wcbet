@@ -34,7 +34,7 @@ const Ranking: NextPage = () => {
     }, [])
 
 
-let ranking = guesses.reduce((group, gs) => {
+let ranking = guesses.reduce((group: any, gs: any) => {
   let newkey:any = gs['user']
   if(!group[newkey]){
     group[newkey]=[]
