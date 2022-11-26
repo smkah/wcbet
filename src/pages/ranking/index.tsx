@@ -23,7 +23,6 @@ function groupBy(array: any, key: any) {
 const Ranking: NextPage = () => {
 
     const [games, setGames] = useState<any>(null)
-    const [user, setUser] = useState<any>(null)
 
     useEffect(()=>{
 
@@ -47,7 +46,7 @@ let ranking = guesses.reduce((group, gs) => {
 
   group[newkey].push({user:gs.user, points: 1})
   return group
-}, [])
+}, []);
 
     return (
         <div className="flex flex-col text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
