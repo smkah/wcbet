@@ -33,6 +33,8 @@ const Ranking: NextPage = () => {
 
     }, [])
 
+let x ="ok"
+
 let ranking = guesses.reduce((group: any, gs: any) => {
   let newkey:any = gs['user']
   if(!group[newkey]){
@@ -51,8 +53,7 @@ let ranking = guesses.reduce((group: any, gs: any) => {
         <div className="flex flex-col text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
             <h1>{games && games.Results[0].CompetitionName[0].Description}</h1>
             <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
-{JSON.stringify(ranking || "nada")}
-{JSON.stringify(guesses || null)}
+{JSON.stringify(x || "nada")}
                 {ranking && ranking.map((u: any) => {
                     //@ts-ignore
                     return <>{u.points}</>
