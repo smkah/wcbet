@@ -31,21 +31,21 @@ const Ranking: NextPage = () => {
             setGames(games.data)
         })()
 
-    }, [])
-
-let x ="ok"
+    }, []);
 
 let ranking = guesses.reduce((group: any, gs: any) => {
   let newkey:any = gs['user']
   if(!group[newkey]){
     group[newkey]=[]
   }
+alert(newkey)
 
 //const game = games.Results.filter((g: any) => {
   //    return g.Home && g.Home.Abbreviation == gs.HomeISO && g.Away.Abbreviation && g.Away.Abbreviation == gs.AwayISO
   // })
 //@ts-ignore
   group[newkey].push({points: 1})
+alert(group)
   return group
 }, []);
 
