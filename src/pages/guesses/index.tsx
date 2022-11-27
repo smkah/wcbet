@@ -45,7 +45,7 @@ const router = useRouter();
         <div className="flex flex-col text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
             <h1>{games && games.Results[0].CompetitionName[0].Description}</h1>
 <h2>Olá, {user}!</h2>
-<button className="w-screen rounded bg-white text-black p-2 m-2" onClick={()=>router.push("ranking")}>Ranking</button>
+<button className="rounded bg-white text-black p-2 m-2" onClick={()=>router.push("ranking")}>Ranking</button>
 <h2>Resultados</h2>
 <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
                 {games && games.Results.map((g: any) => {
