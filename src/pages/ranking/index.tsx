@@ -58,7 +58,7 @@ let ranking = guesses.reduce((group: any, gs: any) => {
                     return <>{u.points}</>
                 })}
             </div>
-            {guesses && JSON.stringify(groupBy(guesses, 'user'))}
+            {guesses && JSON.stringify(guesses[0])}
         </div>
     )
 }
