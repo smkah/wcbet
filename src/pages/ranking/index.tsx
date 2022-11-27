@@ -9,7 +9,6 @@ import { getImageSize } from 'next/dist/server/image-optimizer';
 import guesses from '../../assets/guesses.json'
 
 function groupBy(array: any, key: any) {
-return 1;
     return array.reduce((acc: any, item: any) => {
 
         const group = item[key][0] ? item[key][0].Description : 'Sem Grupo'
