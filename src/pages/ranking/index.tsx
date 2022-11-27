@@ -47,7 +47,7 @@ let ranking = guesses.reduce((group: any, gs: any) => {
   group[newkey].push({points: 1})
   return group
 }, []);
-},[];
+},[]);
 
     return (
         <div className="flex flex-col text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
