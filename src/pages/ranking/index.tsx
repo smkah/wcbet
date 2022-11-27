@@ -33,7 +33,7 @@ const Ranking: NextPage = () => {
 
     }, [])
 
-
+useEffect(()=>{
 let ranking = guesses.reduce((group: any, gs: any) => {
   let newkey:any = gs['user']
   if(!group[newkey]){
@@ -43,16 +43,18 @@ let ranking = guesses.reduce((group: any, gs: any) => {
 //const game = games.Results.filter((g: any) => {
   //    return g.Home && g.Home.Abbreviation == gs.HomeISO && g.Away.Abbreviation && g.Away.Abbreviation == gs.AwayISO
   // })
-// @ts-ignore
-  group[newkey].push({"user":gs.user, "points": 1})
+//@ts-ignore
+  group[newkey].push({points: 1})
   return group
 }, []);
+},[];
 
     return (
         <div className="flex flex-col text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
             <h1>{games && games.Results[0].CompetitionName[0].Description}</h1>
             <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
 {JSON.stringify(ranking || "nada")}
+{JSON.stringify(guesses || null)}
                 {ranking && ranking.map((u: any) => {
                     //@ts-ignore
                     return <>{u.points}</>
