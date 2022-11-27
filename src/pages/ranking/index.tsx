@@ -11,7 +11,7 @@ import guesses from '../../assets/guesses.json'
 function groupBy(array: any, key: any) {
     return array.reduce((acc: any, item: any) => {
 
-        const group = item[key][0] ? item[key][0].Description : 'Sem Grupo'
+        const group = item[key];
 
         if (!acc[group]) acc[group] = []
         acc[group].push(item)
