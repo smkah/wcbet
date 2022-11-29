@@ -24,7 +24,7 @@ function groupBy(array: any, key: any) {
 
 const Guesses: NextPage = () => {
 
-const router = useRouter();
+    const router = useRouter();
 
     const [games, setGames] = useState<any>(null)
     const [user, setUser] = useState<any>(null)
@@ -43,11 +43,14 @@ const router = useRouter();
 
     return (
         <div className="flex flex-col text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
-            <h1>{games && games.Results[0].CompetitionName[0].Description}</h1>
-<h2>Olá, {user}!</h2>
-<button className="rounded bg-white text-black p-2 m-2" onClick={()=>router.push("ranking")}>Ranking</button>
-<h2>Resultados</h2>
-<div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
+            <h1 className="text-lg">{games && games.Results[0].SeasonName[0].Description}</h1>
+            {user && <>
+                <h2>Olá, {user}!</h2>
+                <button className="rounded bg-white text-black w-full p-2 m-4" onClick={() => router.push("ranking")}>Ranking</button>
+            </>
+            }
+            <h2 className="text-2xl">Resultados</h2>
+            <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
                 {games && games.Results.map((g: any) => {
                     //@ts-ignore
                     const guess = guesses.filter((gs: any) => {

@@ -1,8 +1,11 @@
 import { FormEvent, useEffect, useState, createElement } from "react";
 import { useRouter } from 'next/router'
 import Image from 'next/image'
+import { format, formatISO } from 'date-fns'
+import ptBR from "date-fns/locale/pt-BR";
 
 const CardGame = (props: any) => {
+    { console.log(props) }
 
     function handlePoints(hs: any, as: any, gh: any, ga: any) {
 
@@ -17,7 +20,7 @@ const CardGame = (props: any) => {
 
     const [points, setPoints] = useState(0)
 
-    let { TeamName, Home, Away, IdMatch, GroupName, LocalDate, guess } = props
+    let { TeamName, Home, Away, IdMatch, GroupName, LocalDate, MatchStatus, guess } = props
 
     useEffect(() => {
         if (guess) setPoints(handlePoints(Home.Score, Away.Score, guess.HomeGuess, guess.AwayGuess))
@@ -27,13 +30,13 @@ const CardGame = (props: any) => {
     const awayFlagUrl = Away && Away.PictureUrl.replace('{format}', 'sq').replace('{size}', '1')
 
     return <div key={IdMatch} className="bg-white rounded p-4" >
-        <div className="flex justify-center mb-2 gap-2">
+        <div className="flex justify-center mb-2 gap-6">
             <b>{GroupName.length > 0 && GroupName[0].Description}</b>
-            <span>{JSON.stringify(LocalDate)}</span>
-            {/* <span>{LocalDate && ((LocalDate.getDate())) + "/" + ((LocalDate.getMonth() + 1)) + "/" + LocalDate.getFullYear()}</span> */}
+            {format(new Date(LocalDate), "P", { locale: ptBR })}
+            {MatchStatus == 0 ? <div className="bg-green-400 rounded-full w-4 h-4"></div> : MatchStatus == 3 ? <div className="bg-yellow-400 rounded-full w-4 h-4 animate-bounce"></div> : <div className="bg-gray-400 rounded-full w-4 h-4"></div>}
         </div>
-        <div className="flex gap-2">
 
+        <div className="flex gap-2">
             <h1> {Home ? Home.Abbreviation : 'nada'}</h1>
             <img src={homeFlagUrl} alt="" />
             <span className="w-10 font-semibold text-lg text-center border-gray-100 border">{Home && Home.Score}</span>
@@ -53,7 +56,6 @@ const CardGame = (props: any) => {
         )}
     </div>
 
+
 }
 export default CardGame;
-
-// https://products.aspose.com/cells/net/conversion/xlsx-to-json/
