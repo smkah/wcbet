@@ -1,11 +1,10 @@
 import { FormEvent, useEffect, useState, createElement } from "react";
 import { useRouter } from 'next/router'
 import Image from 'next/image'
-import { format, formatISO } from 'date-fns'
+import { format } from 'date-fns'
 import ptBR from "date-fns/locale/pt-BR";
 
 const CardGame = (props: any) => {
-    { console.log(props) }
 
     function handlePoints(hs: any, as: any, gh: any, ga: any) {
 
@@ -32,7 +31,7 @@ const CardGame = (props: any) => {
     return <div key={IdMatch} className="bg-white rounded p-4" >
         <div className="flex justify-center mb-2 gap-6">
             <b>{GroupName.length > 0 && GroupName[0].Description}</b>
-            {format(new Date(LocalDate), "P", { locale: ptBR })}
+            {format(new Date(LocalDate), "Pp", { locale: ptBR })}
             {MatchStatus == 0 ? <div className="bg-green-400 rounded-full w-4 h-4"></div> : MatchStatus == 3 ? <div className="bg-yellow-400 rounded-full w-4 h-4 animate-bounce"></div> : <div className="bg-gray-400 rounded-full w-4 h-4"></div>}
         </div>
 

@@ -59,7 +59,6 @@ const Guesses: NextPage = () => {
                     return <CardGame {...g} guess={guess[0]} />
                 })}
             </div>
-            {/* {games && console.log(groupBy(games.Results, 'GroupName'))} */}
         </div>
     )
 }

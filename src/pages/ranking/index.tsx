@@ -2,67 +2,83 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { FaEnvelope, FaLock, FaUser } from 'react-icons/fa';
+import { FaEnvelope, FaLock, FaUser, FaTrophy } from 'react-icons/fa';
 import axios from 'axios'
-import { getImageSize } from 'next/dist/server/image-optimizer';
+
 
 import guesses from '../../assets/guesses.json'
 
-
-
 const Ranking: NextPage = () => {
+    const [games, setGames] = useState<any>([])
+    const [ranking, setRanking] = useState<any>(null)
+    const [isLoading, setLoading] = useState(false)
+    const [nameCompetition, setName] = useState('')
+
+    useEffect(() => {
+        setLoading(true);
+        (async function getGames() {
+            const { data } = await axios.get('https://api.fifa.com/api/v3/calendar/matches?language=pt&idCompetition=17&IdSeason=255711')
+            setGames(data.Results)
+            setName(data.Results[0].CompetitionName[0].Description)
+            setLoading(false);
+        })()
+    }, [])
+
+    useEffect(() => {
+        let r = groupBy(guesses, "user")
+        r = Object.values(r).sort((a: any, b: any) => b.points - a.points);
+        setRanking(r);
+    }, [isLoading])
+
+    if (isLoading) return <p className='text-black'>Loading...</p>
+    if (!games) return <p className='text-black'>No profile data.</p>
 
     function groupBy(array: any, key: any) {
-        return array.reduce((acc: any, item: any) => {
+
+        return array.reduce((acc: [any], item: any) => {
 
             const user = item[key];
 
-            if (!acc[user]) acc[user] = []
-            acc[user].points = 1
+            if (!acc[user]) acc[user] = { user, points: 0 }
+
+            const [game] = games.filter((g: any) => {
+                return g.Home && g.Home.Abbreviation == item.HomeISO && g.Away.Abbreviation && g.Away.Abbreviation == item.AwayISO && item.user == user
+            })
+
+            if (game) {
+                const p = game.MatchStatus == 0 ? handlePoints(game.Home.Score, game.Away.Score, item.HomeGuess, item.AwayGuess) : 0
+                acc[user]['points'] = acc[user]['points'] + p;
+            }
+
             return acc
-        }, [])
+        }, {})
     }
 
-    const [games, setGames] = useState<any>(null)
-    const [ranking, setRanking] = useState<any>(null)
+    function handlePoints(hs: any, as: any, gh: any, ga: any) {
 
-    useEffect(() => {
+        let p = 0;
+        if (hs == gh && as == ga) return p = 3;
+        if (hs > as && gh > ga) return p = 1;
+        if (hs < as && gh < ga) return p = 1;
+        if (hs == as && gh == ga) return p = 1;
+        return p;
 
-        const r = groupBy(guesses, "user")
-        setRanking(r);
-        (async function () {
-            const games = await axios.get('https://api.fifa.com/api/v3/calendar/matches?language=pt&idCompetition=17&IdSeason=255711')
-            setGames(games.data)
-        })()
-
-    }, []);
-
-    // let ranking = guesses.reduce((group: any, gs: any) => {
-    //     let newkey: any = gs['user']
-    //     if (!group[newkey]) {
-    //         group[newkey] = []
-    //     }
-
-    //const game = games.Results.filter((g: any) => {
-    //    return g.Home && g.Home.Abbreviation == gs.HomeISO && g.Away.Abbreviation && g.Away.Abbreviation == gs.AwayISO
-    // })
-
-    //@ts-ignore
-    //     group[newkey].push({ points: 1 })
-    //     return group
-    // }, []);
+    }
 
     return (
-        <div className="flex flex-col text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
-            <h1>{games && games.Results[0].CompetitionName[0].Description}</h1>
-            {/* <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-white">
-
-                {ranking && ranking.map((u: any) => {
-                    //@ts-ignore
-                    return <>{u.points}</>
-                })}
-            </div> */}
-            {ranking && JSON.stringify(ranking.smkah)}
+        <div className="flex flex-col h-screen text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
+            <h1 className='font-bold text-lg my-10'>{nameCompetition}</h1>
+            <h1 className='font-bold mb-5'>Ranking</h1>
+            {ranking && Object.values(ranking).map((r: any, k) => {
+                return <div key={k} className="bg-white rounded px-4 py-2 w-1/6 mb-2" >
+                    <div className="flex gap-2 text-black items-center justify-evenly">
+                        <h1 className='font-bold'>{k + 1}º</h1>
+                        <span className='uppercase'>{r.user}</span>
+                        <span className='bg-green-800 rounded text-white px-2 py-1'>{r.points}</span>
+                        {k == 0 ? <FaTrophy className='text-yellow-500 w-7 h-7' /> : k == 1 ? <FaTrophy className='text-gray-500 w-6 h-6' /> : k == 2 ? <FaTrophy className='text-yellow-800 w-5 h-5' /> : null}
+                    </div>
+                </div>
+            })}
         </div>
     )
 }
