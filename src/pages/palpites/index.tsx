@@ -51,13 +51,13 @@ const Guesses: NextPage = () => {
             }
             <h2 className="text-2xl">Resultados</h2>
             <div className="flex justify-center w-screen md:p-10 flex-wrap gap-4 text-black">
-                {games && games.Results.map((g: any) => {
+                {games ? games.Results.map((g: any) => {
                     //@ts-ignore
                     const guess = guesses.filter((gs: any) => {
                         return g.Home && g.Home.Abbreviation == gs.HomeISO && g.Away.Abbreviation && g.Away.Abbreviation == gs.AwayISO && gs.user == user
                     })
                     return <CardGame {...g} guess={guess[0]} />
-                })}
+                }): <p className="text-white font-bold text-lg">Carregando...</p>}
             </div>
         </div>
     )
