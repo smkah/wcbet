@@ -66,7 +66,7 @@ const Ranking: NextPage = () => {
             <h1 className='font-bold text-lg my-10'>{nameCompetition}</h1>
             <h1 className='font-bold mb-5'>Ranking</h1>
             {!isLoading && ranking ? Object.values(ranking).map((r: any, k) => {
-                return <div key={k} className="bg-white rounded px-4 py-2  w-screen lg:w-1/6 mb-2" >
+                return <div key={k} className="bg-white rounded px-4 py-2 w-2/3 lg:w-1/6 mb-2" >
                     <div className="flex gap-2 text-black items-center justify-evenly">
                         <h1 className='font-bold'>{k + 1}º</h1>
                         <span className='uppercase'>{r.user}</span>
