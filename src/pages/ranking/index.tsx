@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react'
 import { FaEnvelope, FaLock, FaUser, FaTrophy } from 'react-icons/fa';
 import axios from 'axios'
 
-
 import guesses from '../../assets/guesses.json'
 
 const Ranking: NextPage = () => {
@@ -29,9 +28,6 @@ const Ranking: NextPage = () => {
         r = Object.values(r).sort((a: any, b: any) => b.points - a.points);
         setRanking(r);
     }, [isLoading])
-
-    if (isLoading) return <p className='text-black'>Loading...</p>
-    if (!games) return <p className='text-black'>No profile data.</p>
 
     function groupBy(array: any, key: any) {
 
@@ -69,8 +65,8 @@ const Ranking: NextPage = () => {
         <div className="flex flex-col h-screen text-white items-center justify-center bg-gradient-to-r from-green-900 to-gray-900 ">
             <h1 className='font-bold text-lg my-10'>{nameCompetition}</h1>
             <h1 className='font-bold mb-5'>Ranking</h1>
-            {ranking && Object.values(ranking).map((r: any, k) => {
-                return <div key={k} className="bg-white rounded px-4 py-2 w-1/6 mb-2" >
+            {!isLoading ? Object.values(ranking).map((r: any, k) => {
+                return <div key={k} className="bg-white rounded px-4 py-2  w-screen lg:w-1/6 mb-2" >
                     <div className="flex gap-2 text-black items-center justify-evenly">
                         <h1 className='font-bold'>{k + 1}º</h1>
                         <span className='uppercase'>{r.user}</span>
@@ -78,7 +74,7 @@ const Ranking: NextPage = () => {
                         {k == 0 ? <FaTrophy className='text-yellow-500 w-7 h-7' /> : k == 1 ? <FaTrophy className='text-gray-500 w-6 h-6' /> : k == 2 ? <FaTrophy className='text-yellow-800 w-5 h-5' /> : null}
                     </div>
                 </div>
-            })}
+            }) : <p className='text-white font-bold text-lg'>Carregando...</p> }
         </div>
     )
 }
