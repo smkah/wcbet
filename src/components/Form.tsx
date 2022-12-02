@@ -14,7 +14,7 @@ const Form = (props: any) => {
 
         // @ts-ignore⁸
         localStorage.setItem('user', Object.keys(formData).length > 0 ? formData.nick : '')
-        router.push('/guesses')
+        router.push('/palpites')
 
         // if (Object.keys(e).length > 0) {
         //    const response = await api.post(`${name}/new`, formData)
